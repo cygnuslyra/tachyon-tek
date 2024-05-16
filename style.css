@@ -10,12 +10,15 @@
     display: flex;
     flex: auto;
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-color: aqua;
-    margin: -10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding-right: 10px;
 }
 
 .logo {
+    flex: auto;
     padding-top: 30px;
     padding: 20px;
     width: 10%;
@@ -35,4 +38,61 @@
     font-size: 18px;
     padding-right: 24px;
     padding-left: 20px;
+}
+
+.body-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+}
+
+.body-1-content {
+    text-align: center;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+.body-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: wheat;
+}
+
+.body-2-content {
+    text-align: center;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    flex: auto;
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding-right: 10px;
+    margin-bottom: -10px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer-content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
