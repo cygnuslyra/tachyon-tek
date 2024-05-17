@@ -83,6 +83,10 @@
     color: #21383b;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .footer {
     display: flex;
     flex: auto;
