@@ -65,6 +65,8 @@ a:hover {
 
 .body-1 {
     display: flex;
+    flex: flex-wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: -10px;
@@ -94,8 +96,8 @@ a:hover {
 
 .body-2-content {
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: 30%;
     margin-bottom: 30%;
     padding: 30px;
