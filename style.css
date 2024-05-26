@@ -10,12 +10,12 @@
 .header {
     display: flex;
     flex: auto;
-    width: 100%;
+    width: 95%;
     height: 120px;
     background-color: #074369;
     margin-left: -10px;
     margin-top: -10px;
-    padding-right: 10px;
+    padding-right: 5%;
     align-items: center;
 }
 
