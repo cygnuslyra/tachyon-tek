@@ -124,6 +124,7 @@ a:hover {
     font-size: 18px;
     color: #21383b;
     background-color: #f2f2f2;
+    border-radius: 10em;
 }
 
 ul {
