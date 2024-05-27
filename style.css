@@ -73,18 +73,31 @@ a:hover {
 .body-1 {
     display: flex;
     flex: wrap;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: -10px;
     margin-top: -10px;
     width: 100%;
-    height: 80%;
     background-color: #f2f2f2;
-    background-image:url('circuits.jpg');
-    background-attachment:fixed;
+}
+
+.body-1-index {
+    display: flex;
+    background-image: url('circuits.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 80%;
+}
+
+.body-1-our-svc {
+    display: flex;
+    background-image: url('circuits.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    background-color:#97cdef;
 }
 
 .body-1-content {
@@ -124,6 +137,7 @@ ul {
     height: 40px;
     background-color: #074369;
     margin-left: -10px;
+    margin-right: -10px;
     margin-top: -10px;
     margin-bottom: -10px;
     justify-content: center;
