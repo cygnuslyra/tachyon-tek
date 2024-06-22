@@ -1,13 +1,19 @@
 @font-face {
-    font-family: 'akashi';
-    src: url('./fonts/akashi-font.woff') format('woff'),
-         url('./fonts/akashi-font.woff2') format('woff2');
-    font-style: normal;
+    font-family: 'monda-bold';
+    src: url('./fonts/monda-bold-webfont.woff2') format('woff2'),
+         url('./fonts/monda-bold-webfont.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+
 }
 
-* {
-    font-weight: 100;
+@font-face {
+    font-family: 'monda-regular';
+    src: url('./fonts/monda-regular-webfont.woff2') format('woff2'),
+         url('./fonts/monda-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .header, 
@@ -19,7 +25,6 @@
 
 #container {
     display: flex;
-    flex: auto;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -30,7 +35,6 @@
     display: flex;
     flex: auto;
     width: 100%;
-    height: auto;
     background-color: #074369;
     margin-left: -10px;
     margin-top: -10px;
@@ -42,7 +46,7 @@
     flex-direction: row;
     flex: auto;
     width: 5rem;
-    font-family: 'akashi', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'monda-regular', Verdana, Geneva, Tahoma, sans-serif;
     font-size: clamp(.9rem, 1.6rem, 2.1rem);
     color: #f2f2f2;
     justify-content: left;
@@ -67,7 +71,7 @@
 .link {
     padding-top: .1rem;
     text-align: center;
-    font-family: 'akashi', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'monda-regular', Verdana, Geneva, Tahoma, sans-serif;
     font-size: clamp(.5rem, .9rem, 1.5rem);
     padding-right: 24px;
     padding-left: 20px;
@@ -90,6 +94,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-left: -10px;
+    margin-right: 2rem;
     margin-top: -10px;
     width: 100%;
     background-color: #f2f2f2;
@@ -103,14 +108,8 @@ a:hover {
 
 .body-1-content {
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 20px;
-    margin-top: 30%;
-    margin-bottom: 30%;
-    padding: 30px;
-    font-family: 'akashi', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2rem;
+    font-family: 'monda-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
     font-weight: 500;
     color: #21383b;
     background-color: #f2f2f2d5;
@@ -127,7 +126,7 @@ a:hover {
     margin-top: 30%;
     margin-bottom: 30%;
     padding: 30px;
-    font-family: 'akashi', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'monda-regular', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: #21383b;
     background-color: #f2f2f2;
@@ -139,19 +138,19 @@ ul {
 
 .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex: auto;
     width: 100vw;
     height: 40px;
     background-color: #074369;
     margin-left: -10px;
-    margin-top: -10px;
     margin-bottom: -10px;
-    justify-content: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .footer-content {
-    font-family: 'akashi', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'monda-regular', Verdana, Geneva, Tahoma, sans-serif;
     font-size: clamp(.5rem, .9rem, 1.1rem);
     color: #f2f2f2;
     background-color: #074369;
